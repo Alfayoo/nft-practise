@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+}
+.main-card {
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  width: 270px;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 40px;
+}
+.main-card > img {
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.main-card p {
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  line-height: 20px;
+}
+.main-card span {
+  font-size: small;
+}
+.main-card span:nth-of-type(1) {
+  color: hsl(178, 100%, 50%);
+  margin-right: 55px;
+}
+.main-card span:nth-of-type(2) {
+  color: hsl(215, 51%, 70%);
+}
+.main-card span > img {
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+}
+.main-card p > img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+}
+hr {
+  color: hsl(0, 0%, 100%);
+  border-top: 0.001px solid;
+  opacity: 50%;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.attribution {
+  padding-top: 20px;
+}
+.attribution a {
+  text-decoration: none;
+}
